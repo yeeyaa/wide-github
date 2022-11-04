@@ -1,8 +1,8 @@
 {
 
   "manifest_version": 2,
-  "name": "Wide GitHub",
-  "version": "2.1.0",
+  "name": "Wide GitHub for IBM GHE",
+  "version": "2.1.1",
 
   "description": "Makes GitHub layout wide on Mozilla Firefox.",
 
@@ -19,7 +19,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://github.com/*"],
+      "matches": ["*://github.ibm.com/*"],
       "include_globs": ["*://*github*.com/*", "*://*github*.io/*"],
       "exclude_globs": ["*://*github*.com/*/projects/*", "*://*github*.io/*/projects/*"],
       "css": ["style.css"],
